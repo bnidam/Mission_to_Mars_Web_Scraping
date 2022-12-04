@@ -1,4 +1,4 @@
-![The planet Mars]() image from WorldAtlas https://www.worldatlas.com/space/why-is-mars-so-small.html
+![The planet Mars](https://github.com/bnidam/Mission_to_Mars_Web_Scraping/blob/main/Resources/Mars.png) image from WorldAtlas https://www.worldatlas.com/space/why-is-mars-so-small.html
 
 # Mission_to_Mars_Web_Scraping
 
@@ -30,16 +30,16 @@ The second part of this project involved scraping data from an html file on aws 
 - The dataset months 3 and 4 are tied for the coldest months on Mars with an average temperature of -83 degrees Celcius.
 - The dataset month 7 is the warmest month on Mars with an average temperature of -68 degrees Celcius. 
 Below is a bar graph showing the average minimum temperatures pr month on Mars from the dataset.
-![Bar chart: Average Miinimum Temperatures by Month]()
+![Bar chart: Average Miinimum Temperatures by Month](https://github.com/bnidam/Mission_to_Mars_Web_Scraping/blob/main/Resources/Avg_Min_Temp_Month.png)
 
 #### Which months have the lowest and the highest atmospheric pressure on Mars?
 - The dataset month 6 has the lowest atmospheric pressure with an average atmospheric pressure of 745.05.
 - The dataset month 9 has the highest atmospheric pressure with an average atmospheric pressure of 913.31.
 - Note: the dataset does not disclose the unit of measure for atmospheric pressure. Assuming from the temperature degress reported in Celcius, I could assume that this is reported in Pascals but it could be millibars. I chose to not give a unit of measure.
 Below is a bar graph showing the average daily atmospheric pressure per month on Mars from the dataset.
-![Bar chart: Average Atmospheric Pressure by Month]()
+![Bar chart: Average Atmospheric Pressure by Month](https://github.com/bnidam/Mission_to_Mars_Web_Scraping/blob/main/Resources/Avg_Atmos_Press_Month.png)
 
 #### About how many terrestrial (Earth) days exist in a Martian year? 
 - By starting with the solar longitude of Curiosity's first record, noting the number of sols in the dataset with that same solar longitude and the Earth date of those particular sols, then counting the sols in between those dates, there are approximately 686 Earth days in a Martian year.
 - This calculation was confirmed by plotting the daily minimum temperature for all the data in the dataset and then estimating the number of sols between points of apparent seasonal fluctuation: lowest points to lowest points, highest points to highest points. The chart showing the daily minimum temperatures is below.
-![chart: Daily Minimum Temperatures]()
+![chart: Daily Minimum Temperatures](https://github.com/bnidam/Mission_to_Mars_Web_Scraping/blob/main/Resources/Daily_Min_Temp.png)
