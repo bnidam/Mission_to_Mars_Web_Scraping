@@ -3,7 +3,7 @@
 # Mission_to_Mars_Web_Scraping
 
 ## Overview of Project
-Websites are full of information - from headline news and insteresting articles to data. Web-scraping is a useful way to extract that information or data to compile and analyze it. This project uses a variety of tools to practice all of these skills
+Websites are full of information - from headline news and insteresting articles to data. Web-scraping is a useful way to extract that information or data to compile and analyze it. This project uses a variety of tools to practice all of these skills.
 
 ### Purpose
 The purpose of this project is to use web scraping to collect information and data, format and organize this information and/or data, and analyze it to answer questions, then store those files. This project aids in the practice of identifying HTML elements and their attributes, extracting and parsing various types of information - text, links, data.
@@ -29,6 +29,7 @@ The second part of this project involved scraping data from an html file on aws 
 #### What are the coldest and the warmest month on Mars (at the location of Curiosity)?
 - The dataset months 3 and 4 are tied for the coldest months on Mars with an average temperature of -83 degrees Celcius.
 - The dataset month 7 is the warmest month on Mars with an average temperature of -68 degrees Celcius. 
+
 Below is a bar graph showing the average minimum temperatures pr month on Mars from the dataset.
 ![Bar chart: Average Miinimum Temperatures by Month](https://github.com/bnidam/Mission_to_Mars_Web_Scraping/blob/main/Resources/Avg_Min_Temp_Month.png)
 
@@ -36,6 +37,7 @@ Below is a bar graph showing the average minimum temperatures pr month on Mars f
 - The dataset month 6 has the lowest atmospheric pressure with an average atmospheric pressure of 745.05.
 - The dataset month 9 has the highest atmospheric pressure with an average atmospheric pressure of 913.31.
 - Note: the dataset does not disclose the unit of measure for atmospheric pressure. Assuming from the temperature degress reported in Celcius, I could assume that this is reported in Pascals but it could be millibars. I chose to not give a unit of measure.
+
 Below is a bar graph showing the average daily atmospheric pressure per month on Mars from the dataset.
 ![Bar chart: Average Atmospheric Pressure by Month](https://github.com/bnidam/Mission_to_Mars_Web_Scraping/blob/main/Resources/Avg_Atmos_Press_Month.png)
 
