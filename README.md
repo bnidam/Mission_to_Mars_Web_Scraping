@@ -14,7 +14,7 @@ This project uses Python and jupyter notebooks with the following imports: Splin
 ## Analysis 
 
 ### Part 1
-The first part of this project involved creating a compilation of headline news about Mars from the Mars News website https://redplanetscience.com/.  The compilation contains the title and preview text of the articles scraped from that website, put into Python dictionary format, and saved as a JSON file named XXXXXXXXXXXXX.
+The first part of this project involved creating a compilation of headline news about Mars from the Mars News website https://redplanetscience.com/.  The compilation contains the title and preview text of the articles scraped from that website, put into Python dictionary format and shown in the jupyter notebook.
 
 ### Part 2
 The second part of this project involved scraping data from an html file on aws (Mars Temperature Data https://data-class-mars-challenge.s3.amazonaws.com/Mars/index.html). The scraped data was put into a Pandas DataFrame, reformatted to data types appropriate to the data in each column, and then analyzed to answer the five questions listed below. The answers are shown below. The analysis process and answers are also available in the code of the mars_data_challenge_part_2.ipynb.
